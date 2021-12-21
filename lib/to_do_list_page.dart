@@ -14,11 +14,11 @@ class _ToDoListPageState extends State<ToDoListPage> {
       ),
       body: Container(
         child: ListView.builder(
-          itemCount: 5,
+          itemCount: 15,
           itemBuilder: (context, index){
             return ListTile(
               title: Text("Item $index"),
-              subtitle: Text("Do item $index"),
+              subtitle: Text("Do item do icon do ic do ka do ks do le do sl $index", overflow: TextOverflow.ellipsis,),
               leading: Icon(Icons.add_photo_alternate_outlined),
               trailing: Icon(Icons.add),
             );
